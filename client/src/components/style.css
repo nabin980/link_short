@@ -1,0 +1,43 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Be Vietnam Pro;
+    background-color: rgb(115, 112, 112);
+}
+form{
+    display: flex;
+    gap: 10px;
+}
+input{
+    border-radius: 12px;
+   outline: none;
+   padding-left: 1rem;
+    font-size: 18px;
+    background-color: white;
+    border: 2px solid  rgba(1, 163, 224, 1);
+    color:  rgba(1, 163, 224, 1);
+}
+button{
+    height: 24px;
+    width: 100px;
+    color:  rgba(1, 163, 224, 1);
+    font-size: 14px;
+    border-radius: 8px;
+    background-color: white;
+    border: 2px solid  rgba(1, 163, 224, 1);
+}
+button:hover{
+    color: white;
+    border: none;
+    background-color:  rgba(1, 163, 224, 1);
+}
+/* .container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
